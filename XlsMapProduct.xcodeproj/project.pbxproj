@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36B8784D1DBF22F000550CF6 /* MapNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8784C1DBF22F000550CF6 /* MapNavViewController.m */; };
+		36B878501DBF232D00550CF6 /* MapNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8784F1DBF232D00550CF6 /* MapNavView.m */; };
+		36EAA5571DBEFAFC004E1AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EAA5561DBEFAFC004E1AAE /* main.m */; };
+		36EAA55A1DBEFAFD004E1AAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EAA5591DBEFAFD004E1AAE /* AppDelegate.m */; };
+		36EAA55D1DBEFAFD004E1AAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EAA55C1DBEFAFD004E1AAE /* ViewController.m */; };
+		36EAA5621DBEFAFD004E1AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EAA5611DBEFAFD004E1AAE /* Assets.xcassets */; };
+		36EAA5651DBEFAFD004E1AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EAA5631DBEFAFD004E1AAE /* LaunchScreen.storyboard */; };
+		36EAA5701DBEFAFD004E1AAE /* XlsMapProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EAA56F1DBEFAFD004E1AAE /* XlsMapProductTests.m */; };
+		36EAA57B1DBEFAFD004E1AAE /* XlsMapProductUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EAA57A1DBEFAFD004E1AAE /* XlsMapProductUITests.m */; };
+		36EAA58C1DBEFD8D004E1AAE /* ShowMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EAA5891DBEFD8D004E1AAE /* ShowMapView.m */; };
+		36EAA58D1DBEFD8D004E1AAE /* ShowMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EAA58B1DBEFD8D004E1AAE /* ShowMapViewController.m */; };
+		7EE2573CE974E71B86B5B434 /* libPods-XlsMapProduct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4A96B7B26A5679C1DB787 /* libPods-XlsMapProduct.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36EAA56C1DBEFAFD004E1AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36EAA54A1DBEFAFB004E1AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36EAA5511DBEFAFC004E1AAE;
+			remoteInfo = XlsMapProduct;
+		};
+		36EAA5771DBEFAFD004E1AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36EAA54A1DBEFAFB004E1AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36EAA5511DBEFAFC004E1AAE;
+			remoteInfo = XlsMapProduct;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5D7A3EFCA359F9821DEEFC /* Pods-XlsMapProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XlsMapProduct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XlsMapProduct/Pods-XlsMapProduct.debug.xcconfig"; sourceTree = "<group>"; };
+		36B8784B1DBF22F000550CF6 /* MapNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapNavViewController.h; sourceTree = "<group>"; };
+		36B8784C1DBF22F000550CF6 /* MapNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNavViewController.m; sourceTree = "<group>"; };
+		36B8784E1DBF232D00550CF6 /* MapNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapNavView.h; sourceTree = "<group>"; };
+		36B8784F1DBF232D00550CF6 /* MapNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNavView.m; sourceTree = "<group>"; };
+		36EAA5521DBEFAFC004E1AAE /* XlsMapProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XlsMapProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EAA5561DBEFAFC004E1AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36EAA5581DBEFAFC004E1AAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36EAA5591DBEFAFD004E1AAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36EAA55B1DBEFAFD004E1AAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36EAA55C1DBEFAFD004E1AAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36EAA5611DBEFAFD004E1AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36EAA5641DBEFAFD004E1AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36EAA5661DBEFAFD004E1AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EAA56B1DBEFAFD004E1AAE /* XlsMapProductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XlsMapProductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EAA56F1DBEFAFD004E1AAE /* XlsMapProductTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XlsMapProductTests.m; sourceTree = "<group>"; };
+		36EAA5711DBEFAFD004E1AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EAA5761DBEFAFD004E1AAE /* XlsMapProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XlsMapProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EAA57A1DBEFAFD004E1AAE /* XlsMapProductUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XlsMapProductUITests.m; sourceTree = "<group>"; };
+		36EAA57C1DBEFAFD004E1AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EAA5881DBEFD8C004E1AAE /* ShowMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMapView.h; sourceTree = "<group>"; };
+		36EAA5891DBEFD8D004E1AAE /* ShowMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMapView.m; sourceTree = "<group>"; };
+		36EAA58A1DBEFD8D004E1AAE /* ShowMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMapViewController.h; sourceTree = "<group>"; };
+		36EAA58B1DBEFD8D004E1AAE /* ShowMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMapViewController.m; sourceTree = "<group>"; };
+		D0E4A96B7B26A5679C1DB787 /* libPods-XlsMapProduct.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XlsMapProduct.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED8F581ECA625472BEFFC02 /* Pods-XlsMapProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XlsMapProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-XlsMapProduct/Pods-XlsMapProduct.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36EAA54F1DBEFAFC004E1AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE2573CE974E71B86B5B434 /* libPods-XlsMapProduct.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EAA5681DBEFAFD004E1AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EAA5731DBEFAFD004E1AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065B23CFFD3864B917DF6EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E4A96B7B26A5679C1DB787 /* libPods-XlsMapProduct.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36EAA5491DBEFAFB004E1AAE = {
+			isa = PBXGroup;
+			children = (
+				36EAA5541DBEFAFC004E1AAE /* XlsMapProduct */,
+				36EAA56E1DBEFAFD004E1AAE /* XlsMapProductTests */,
+				36EAA5791DBEFAFD004E1AAE /* XlsMapProductUITests */,
+				36EAA5531DBEFAFC004E1AAE /* Products */,
+				9F8A3517FB40ED4E7DAD9759 /* Pods */,
+				065B23CFFD3864B917DF6EC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36EAA5531DBEFAFC004E1AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36EAA5521DBEFAFC004E1AAE /* XlsMapProduct.app */,
+				36EAA56B1DBEFAFD004E1AAE /* XlsMapProductTests.xctest */,
+				36EAA5761DBEFAFD004E1AAE /* XlsMapProductUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36EAA5541DBEFAFC004E1AAE /* XlsMapProduct */ = {
+			isa = PBXGroup;
+			children = (
+				36EAA5581DBEFAFC004E1AAE /* AppDelegate.h */,
+				36EAA5591DBEFAFD004E1AAE /* AppDelegate.m */,
+				36EAA55B1DBEFAFD004E1AAE /* ViewController.h */,
+				36EAA55C1DBEFAFD004E1AAE /* ViewController.m */,
+				36B8784B1DBF22F000550CF6 /* MapNavViewController.h */,
+				36B8784C1DBF22F000550CF6 /* MapNavViewController.m */,
+				36B8784E1DBF232D00550CF6 /* MapNavView.h */,
+				36B8784F1DBF232D00550CF6 /* MapNavView.m */,
+				36EAA58A1DBEFD8D004E1AAE /* ShowMapViewController.h */,
+				36EAA58B1DBEFD8D004E1AAE /* ShowMapViewController.m */,
+				36EAA5881DBEFD8C004E1AAE /* ShowMapView.h */,
+				36EAA5891DBEFD8D004E1AAE /* ShowMapView.m */,
+				36EAA5611DBEFAFD004E1AAE /* Assets.xcassets */,
+				36EAA5631DBEFAFD004E1AAE /* LaunchScreen.storyboard */,
+				36EAA5661DBEFAFD004E1AAE /* Info.plist */,
+				36EAA5551DBEFAFC004E1AAE /* Supporting Files */,
+			);
+			path = XlsMapProduct;
+			sourceTree = "<group>";
+		};
+		36EAA5551DBEFAFC004E1AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36EAA5561DBEFAFC004E1AAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36EAA56E1DBEFAFD004E1AAE /* XlsMapProductTests */ = {
+			isa = PBXGroup;
+			children = (
+				36EAA56F1DBEFAFD004E1AAE /* XlsMapProductTests.m */,
+				36EAA5711DBEFAFD004E1AAE /* Info.plist */,
+			);
+			path = XlsMapProductTests;
+			sourceTree = "<group>";
+		};
+		36EAA5791DBEFAFD004E1AAE /* XlsMapProductUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36EAA57A1DBEFAFD004E1AAE /* XlsMapProductUITests.m */,
+				36EAA57C1DBEFAFD004E1AAE /* Info.plist */,
+			);
+			path = XlsMapProductUITests;
+			sourceTree = "<group>";
+		};
+		9F8A3517FB40ED4E7DAD9759 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D5D7A3EFCA359F9821DEEFC /* Pods-XlsMapProduct.debug.xcconfig */,
+				EED8F581ECA625472BEFFC02 /* Pods-XlsMapProduct.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36EAA5511DBEFAFC004E1AAE /* XlsMapProduct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EAA57F1DBEFAFD004E1AAE /* Build configuration list for PBXNativeTarget "XlsMapProduct" */;
+			buildPhases = (
+				DBFA7E2B387D5A820EEDBCEC /* [CP] Check Pods Manifest.lock */,
+				36EAA54E1DBEFAFC004E1AAE /* Sources */,
+				36EAA54F1DBEFAFC004E1AAE /* Frameworks */,
+				36EAA5501DBEFAFC004E1AAE /* Resources */,
+				5376BB8218C5DCDF74C3D934 /* [CP] Embed Pods Frameworks */,
+				C475C08EE24CC8811B340982 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XlsMapProduct;
+			productName = XlsMapProduct;
+			productReference = 36EAA5521DBEFAFC004E1AAE /* XlsMapProduct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36EAA56A1DBEFAFD004E1AAE /* XlsMapProductTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EAA5821DBEFAFD004E1AAE /* Build configuration list for PBXNativeTarget "XlsMapProductTests" */;
+			buildPhases = (
+				36EAA5671DBEFAFD004E1AAE /* Sources */,
+				36EAA5681DBEFAFD004E1AAE /* Frameworks */,
+				36EAA5691DBEFAFD004E1AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36EAA56D1DBEFAFD004E1AAE /* PBXTargetDependency */,
+			);
+			name = XlsMapProductTests;
+			productName = XlsMapProductTests;
+			productReference = 36EAA56B1DBEFAFD004E1AAE /* XlsMapProductTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36EAA5751DBEFAFD004E1AAE /* XlsMapProductUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EAA5851DBEFAFD004E1AAE /* Build configuration list for PBXNativeTarget "XlsMapProductUITests" */;
+			buildPhases = (
+				36EAA5721DBEFAFD004E1AAE /* Sources */,
+				36EAA5731DBEFAFD004E1AAE /* Frameworks */,
+				36EAA5741DBEFAFD004E1AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36EAA5781DBEFAFD004E1AAE /* PBXTargetDependency */,
+			);
+			name = XlsMapProductUITests;
+			productName = XlsMapProductUITests;
+			productReference = 36EAA5761DBEFAFD004E1AAE /* XlsMapProductUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36EAA54A1DBEFAFB004E1AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = 56tg;
+				TargetAttributes = {
+					36EAA5511DBEFAFC004E1AAE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7RLDTTP4YA;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					36EAA56A1DBEFAFD004E1AAE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7RLDTTP4YA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36EAA5511DBEFAFC004E1AAE;
+					};
+					36EAA5751DBEFAFD004E1AAE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7RLDTTP4YA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36EAA5511DBEFAFC004E1AAE;
+					};
+				};
+			};
+			buildConfigurationList = 36EAA54D1DBEFAFB004E1AAE /* Build configuration list for PBXProject "XlsMapProduct" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36EAA5491DBEFAFB004E1AAE;
+			productRefGroup = 36EAA5531DBEFAFC004E1AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36EAA5511DBEFAFC004E1AAE /* XlsMapProduct */,
+				36EAA56A1DBEFAFD004E1AAE /* XlsMapProductTests */,
+				36EAA5751DBEFAFD004E1AAE /* XlsMapProductUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36EAA5501DBEFAFC004E1AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EAA5651DBEFAFD004E1AAE /* LaunchScreen.storyboard in Resources */,
+				36EAA5621DBEFAFD004E1AAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EAA5691DBEFAFD004E1AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EAA5741DBEFAFD004E1AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5376BB8218C5DCDF74C3D934 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XlsMapProduct/Pods-XlsMapProduct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C475C08EE24CC8811B340982 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XlsMapProduct/Pods-XlsMapProduct-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBFA7E2B387D5A820EEDBCEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36EAA54E1DBEFAFC004E1AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EAA55D1DBEFAFD004E1AAE /* ViewController.m in Sources */,
+				36EAA55A1DBEFAFD004E1AAE /* AppDelegate.m in Sources */,
+				36EAA58D1DBEFD8D004E1AAE /* ShowMapViewController.m in Sources */,
+				36EAA58C1DBEFD8D004E1AAE /* ShowMapView.m in Sources */,
+				36EAA5571DBEFAFC004E1AAE /* main.m in Sources */,
+				36B8784D1DBF22F000550CF6 /* MapNavViewController.m in Sources */,
+				36B878501DBF232D00550CF6 /* MapNavView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EAA5671DBEFAFD004E1AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EAA5701DBEFAFD004E1AAE /* XlsMapProductTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EAA5721DBEFAFD004E1AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EAA57B1DBEFAFD004E1AAE /* XlsMapProductUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36EAA56D1DBEFAFD004E1AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36EAA5511DBEFAFC004E1AAE /* XlsMapProduct */;
+			targetProxy = 36EAA56C1DBEFAFD004E1AAE /* PBXContainerItemProxy */;
+		};
+		36EAA5781DBEFAFD004E1AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36EAA5511DBEFAFC004E1AAE /* XlsMapProduct */;
+			targetProxy = 36EAA5771DBEFAFD004E1AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36EAA5631DBEFAFD004E1AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36EAA5641DBEFAFD004E1AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36EAA57D1DBEFAFD004E1AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36EAA57E1DBEFAFD004E1AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36EAA5801DBEFAFD004E1AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5D7A3EFCA359F9821DEEFC /* Pods-XlsMapProduct.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7RLDTTP4YA;
+				INFOPLIST_FILE = XlsMapProduct/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.56TG.XlsMapProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36EAA5811DBEFAFD004E1AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED8F581ECA625472BEFFC02 /* Pods-XlsMapProduct.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7RLDTTP4YA;
+				INFOPLIST_FILE = XlsMapProduct/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.56TG.XlsMapProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36EAA5831DBEFAFD004E1AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7RLDTTP4YA;
+				INFOPLIST_FILE = XlsMapProductTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.56TG.XlsMapProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XlsMapProduct.app/XlsMapProduct";
+			};
+			name = Debug;
+		};
+		36EAA5841DBEFAFD004E1AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7RLDTTP4YA;
+				INFOPLIST_FILE = XlsMapProductTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.56TG.XlsMapProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XlsMapProduct.app/XlsMapProduct";
+			};
+			name = Release;
+		};
+		36EAA5861DBEFAFD004E1AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7RLDTTP4YA;
+				INFOPLIST_FILE = XlsMapProductUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.56TG.XlsMapProductUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XlsMapProduct;
+			};
+			name = Debug;
+		};
+		36EAA5871DBEFAFD004E1AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7RLDTTP4YA;
+				INFOPLIST_FILE = XlsMapProductUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.56TG.XlsMapProductUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XlsMapProduct;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36EAA54D1DBEFAFB004E1AAE /* Build configuration list for PBXProject "XlsMapProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EAA57D1DBEFAFD004E1AAE /* Debug */,
+				36EAA57E1DBEFAFD004E1AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EAA57F1DBEFAFD004E1AAE /* Build configuration list for PBXNativeTarget "XlsMapProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EAA5801DBEFAFD004E1AAE /* Debug */,
+				36EAA5811DBEFAFD004E1AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EAA5821DBEFAFD004E1AAE /* Build configuration list for PBXNativeTarget "XlsMapProductTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EAA5831DBEFAFD004E1AAE /* Debug */,
+				36EAA5841DBEFAFD004E1AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EAA5851DBEFAFD004E1AAE /* Build configuration list for PBXNativeTarget "XlsMapProductUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EAA5861DBEFAFD004E1AAE /* Debug */,
+				36EAA5871DBEFAFD004E1AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36EAA54A1DBEFAFB004E1AAE /* Project object */;
+}
